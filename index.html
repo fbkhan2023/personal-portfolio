@@ -14,9 +14,9 @@
     <header class="header">
         <nav id="navbar">
             <ul>
-                <li><a href="#">About</a></li>
+                <li><a href="#footer">About</a></li>
                 <li><a href="#projects">Work</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -24,7 +24,7 @@
     <!-- Welcome section -->
     <section id="welcome">
         <h1>Welcome! I am Furqan</h1>
-        <p>a web developer</p>
+        <p>a web developer student...!</p>
     </section>
 
 
@@ -56,25 +56,36 @@
     <!-- Contact section -->
     <div id="contact-section">
         <h2 id="contact-header">Let's work together</h2>
-        <p>How do you take your coffee?</p>
+        <p>My social media connections</p>
 
         <div class="social-links">
-            <a href="http://www.facebookcom"><i class="fa-brands fa-facebook"></i>
+            <a class="link" href="http://www.facebookcom"><i class="fa-brands fa-facebook"></i>
                 <p>Facebook</p>
             </a>
-            <a href="http://www.github.com"><i class="fa-brands fa-github"></i>
+            <a class="link" href="http://www.github.com"><i class="fa-brands fa-github"></i>
                 <p>GitHub</p>
             </a>
-            <a href="http://www.twitter.com"><i class="fa-brands fa-square-x-twitter"></i>
+            <a class="link" href="http://www.twitter.com"><i class="fa-brands fa-square-x-twitter"></i>
                 <p>Twitter</p>
             </a>
-            <a href="mailto:fbkhan2017@gmail.com"><i class="fa-solid fa-square-envelope"></i>
+            <a class="link" href="mailto:fbkhan2017@gmail.com"><i class="fa-solid fa-square-envelope"></i>
                 <p>Send a mail</p>
             </a>
         </div>
+
+        <form class="subscribe" action="mailto:fbkhan2017@hotmail.com">
+            <label for="email">Subscribe for news letter</label><input type="email" name="email" id="email" autocomplete="off" placeholder="enter email address">
+            <button
+                type="submit"
+                class="btn btn-primary"
+            >
+                Submit
+            </button>
+            
+        </form>
     </div>
     <footer id="footer">
-        <p>This is freecodecamp project - Personal Portfolio</p>
+        <p>This is freecodecamp project for Personal Portfolio</p>
     </footer>
 
 </body>
