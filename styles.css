@@ -79,10 +79,11 @@
 
 .prj-heading {
     text-align: center;
-    color: #f2f8f0;
+    color: #051b4d;
+    text-shadow: 1px 1px #45067d;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     word-spacing: 4px;
     font-size: 2rem;
 }
@@ -133,7 +134,7 @@
 #contact-header {
     text-align: center;
     padding: 20px;
-    color: #207504;
+    color: #43e40d;
     font-size: 2.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 0;
@@ -213,7 +214,7 @@
 
 /* Subscribe section */
 .subscribe {
-    height: 150px;
+    height: 200px;
     background-color: rgb(5, 71, 71);
     padding: 20px;
     display: flex;
@@ -230,22 +231,27 @@
 }
 
 #email {
-    padding: 7px 5px;
-    width: 250px;
+    padding: 10px 5px;
+    width: 300px;
     margin-top: 10px;
     border-radius: 5px;
     border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 
 }
 
 .btn {
-    padding: 5px 25px;
+    padding: 10px 25px;
+    width: 200px;
     font-weight: bold;
     background-color: #207504;
     border: none;
-    border-radius: 20px;
-    margin-top: 20px;
+    border-radius: 10px;
+    margin: 20px 0px;
     cursor: pointer;
+    color: white;
+    font-size: 18px;
 }
 
 .btn:hover {
@@ -259,9 +265,10 @@
     color: white;
     clear: both;
     height: 100px;
-    text-align: center;
+    text-align: left;
     padding: 30px;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
+    font-style: italic;
     border-top: 2px solid red;
 }
 
